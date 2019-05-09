@@ -1,0 +1,44 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+}
+
+.square{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  margin: 0;
+  padding: 10px;
+  background-color: gray;
+}
+
+@media screen and (max-width:768px){
+
+  .square{
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+  }
+}
+
+.green{
+  background-color: green;
+}
+
+.red{
+  background-color: red;
+}
+
+.white{
+  background-color: white;
+}
